@@ -45,14 +45,15 @@ lists:
         out: "celsius"
 expansion_rules:
   name: "{name}"
-  what_is: "(apakah | apa itu | apa)"
-  turn_on: "(buka | on | hidupkan)"
-  turn_off: "(tutup | off | matikan)"
+  what_is: "(apakah | apa itu | apa | berapa)"
+  turn_on: "(nyalakan | hidupkan)"
+  turn_off: "(padamkan | matikan)"
   open: "(buka | dibuka)"
   close: "(tutup | ditutup)"
   lamp: "lampu"
   area: "area {area}"
   brightness: "{brightness} [persen]"
+  temp: "(suhu | temperatur)"
   suhu: "{temperature} [derajat] [{temperature_unit}]"
 skip_words:
   - "tolong"

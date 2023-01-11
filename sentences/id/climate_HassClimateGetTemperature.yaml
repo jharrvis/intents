@@ -2,4 +2,5 @@ language: id
 intents:
   HassClimateGetTemperature:
     data:
-      - sentences: []
+      - sentences:
+          - "berapa <temp> [di <area>]"

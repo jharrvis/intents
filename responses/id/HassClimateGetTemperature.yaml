@@ -1,5 +1,6 @@
-language: id
+language: "id"
 responses:
   intents:
     HassClimateGetTemperature:
-      success: []
+      success:
+        - "{{ state.state }} derajat"
